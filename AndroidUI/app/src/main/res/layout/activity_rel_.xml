@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moransposu.androidui.Rel_Activity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/num1"
+            android:background="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRoseWhite"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:text="@string/num2"
+            android:background="@color/colorAccent"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRoseWhite"
+            android:layout_below="@id/textView21"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="100dp"
+            android:layout_height="72dp"
+            android:text="@string/num3"
+            android:background="@color/colorFadedGrey"
+            android:textColor="@color/colorTextRoseWhite"
+            android:layout_toRightOf="@id/textView20"
+            android:layout_margin="1dp"
+            android:layout_below="@id/textView21"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:text="@string/num4"
+            android:background="@color/colorFadedGrey"
+            android:textColor="@color/colorTextRoseWhite"
+            android:layout_margin="1dp"
+            android:layout_below="@id/textView20"
+            android:layout_toLeftOf="@id/textView19"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="@string/num5"
+            android:textColor="@color/colorTextRoseWhite"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dp"
+            android:textAlignment="center"
+            android:layout_below="@id/textView18"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

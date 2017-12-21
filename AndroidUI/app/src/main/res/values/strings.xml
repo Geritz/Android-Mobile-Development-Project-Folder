@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="facebook_app_id">298733527261680</string>
+    <string name="fb_login_protocol_scheme">fb298733527261680</string>
+    <string name="fb_quick_post">Facebook QPost</string>
+    <string name="fb_post_button">Post!</string>
+    <string name="fb_edit_button">Fix it!</string>
+    <string name="fb_delete_button">Blam it!</string>
+    <string name="fb_postinfo">Make a new Post</string>
+    <string name="fb_editinfo">Edit a Post</string>
+    <string name="fb_editinfoid">Enter ID</string>
+    <string name="fb_deleteinfo">Delete a Post by ID</string>
+    <string name="fb_OK">You got it boss!</string>
+
+    <string name="app_name">FiveByFive by MORANSP</string>
+    <string name="list_view">Horizontal List</string>
+    <string name="vert_view">Vertical List</string>
+    <string name="grid_view">Grid View</string>
+    <string name="relative_view">Relative View</string>
+    <string name="sqlite_view">SQLite Demo</string>
+    <string name="main_activity_text">Main Activity Page</string>
+    <string name="text_prompt">Your text here</string>
+    <string name="submitbutton">Submit</string>
+    <string name="nav_view">Navigation Demo</string>
+    <string name="sqlnav_view">SQLite Geo</string>
+    <string name="Latitude"> LAT:</string>
+    <string name="Longitude"> LON:</string>
+    <string name="http_oauth">Http OAuth</string>
+    <string name="clientID">156917189371-fhk38hp7339ijc7a230s5cjval9f8920.apps.googleusercontent.com</string>
+    <string name="getpostsbutton">Get Posts</string>
+    <string name="makepostbutton">Punch it!</string>
+    <string name="apihint">Type your text here!</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

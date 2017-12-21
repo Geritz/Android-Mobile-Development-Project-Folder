@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sql_listview_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sql_nav_text_listview_string"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.49"
+        android:text="sometext" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Latitude"
+            />
+        <TextView
+            android:id="@+id/sql_nav_lat_listview_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Longitude"
+            android:layout_marginLeft="6dp"
+            />
+        <TextView
+            android:id="@+id/sql_nav_lon_listview_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lon"
+            />
+    </LinearLayout>
+
+</LinearLayout>
